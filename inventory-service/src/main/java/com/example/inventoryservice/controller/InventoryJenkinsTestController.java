@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class InventoryJenkinsTestController {
     @GetMapping("get")
     ResponseEntity<String> get (){
-        String d =  "ăfawfawrfawf";
+        String d =  "Trung thanh";
         return ResponseEntity.ok(d);
     }
 
